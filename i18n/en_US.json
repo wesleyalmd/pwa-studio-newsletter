@@ -1,0 +1,11 @@
+{
+  "newsletter.subscribeToYourNewsletter": "Subscribe to your Newsletter",
+  "newsletter.signUpForLatestNews": "Get the latest updates on news products and upcoming sales.",
+  "newsletter.alreadySubscribed": "This email address is already subscribed.",
+  "newsletter.enterValidEmailAddress": "Enter a valid email address.",
+  "newsletter.genericError": "There was an unexpected error.",
+  "newsletter.successMessage": "Newsletter subscribed successfully!",
+  "newsletter.subscribe": "Subscribe",
+  "newsletter.emailPlaceholder": "Your e-mail address",
+  "newsletter.dontShowAgain": "Don't show this popup again"
+}

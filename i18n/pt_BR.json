@@ -1,0 +1,11 @@
+{
+  "newsletter.subscribeToYourNewsletter": "Assine nossa Newsletter",
+  "newsletter.signUpForLatestNews": "Fique por dentro de novidades, produtos e promoções.",
+  "newsletter.alreadySubscribed": "Email já cadastrado em nossa newsletter.",
+  "newsletter.enterValidEmailAddress": "Informe um endereço de email válido.",
+  "newsletter.genericError": "Houve um erro inesperado.",
+  "newsletter.successMessage": "Newsletter assinada com sucesso!",
+  "newsletter.subscribe": "Assinar",
+  "newsletter.emailPlaceholder": "Seu endereço de email",
+  "newsletter.dontShowAgain": "Não exibir esse popup novamente"
+}

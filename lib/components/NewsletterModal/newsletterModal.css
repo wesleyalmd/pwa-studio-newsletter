@@ -1,0 +1,65 @@
+.root {
+}
+
+.image {
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.body {
+  padding: 0 1rem;
+}
+
+.heading {
+  margin-bottom: 1rem;
+}
+
+.heading h2 {
+  margin-bottom: 0.5rem;
+}
+
+.heading p {
+  margin-top: 0.5rem;
+  color: rgb(var(--venia-global-color-gray-700));
+  line-height: 1.2;
+}
+
+.imageContainer {
+  margin: 4px 4px 0;
+}
+
+.image {
+  height: auto;
+  width: 100%;
+}
+
+.dontShowAgain {
+  margin: 1.5rem 0;
+}
+
+.dontShowAgain label span {
+  font-size: var(--venia-typography-body-S-fontSize);
+}
+
+@media (min-width: 961px) {
+  .wrapper {
+    flex-direction: row;
+  }
+
+  .imageContainer {
+    margin: 2px 2px 0;
+  }
+
+  .image {
+    height: 402px;
+    width: 320px;
+  }
+
+  .body {
+    padding: 3rem 1.5rem;
+    margin-top: 2rem;
+  }
+}

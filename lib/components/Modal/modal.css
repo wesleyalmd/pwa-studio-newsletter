@@ -1,0 +1,45 @@
+.root {
+  composes: root from '~@magento/venia-ui/lib/components/Dialog/dialog.css';
+}
+
+.root_open {
+  composes: root_open from '~@magento/venia-ui/lib/components/Dialog/dialog.css';
+}
+
+.container {
+  composes: form from '~@magento/venia-ui/lib/components/Dialog/dialog.css';
+}
+
+.mask {
+  composes: mask from '~@magento/venia-ui/lib/components/Dialog/dialog.css';
+}
+
+.modal {
+  composes: dialog from '~@magento/venia-ui/lib/components/Dialog/dialog.css';
+  position: relative;
+  border-radius: 0;
+  width: 760px;
+}
+
+.body {
+  height: 100%;
+  width: 100%;
+}
+
+.close {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  z-index: 4;
+}
+
+@media (min-width: 961px) {
+  .close {
+    left: inherit;
+    right: 1rem;
+  }
+
+  .modal {
+    border-radius: 5px;
+  }
+}

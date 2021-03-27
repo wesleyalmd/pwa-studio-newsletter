@@ -1,0 +1,25 @@
+.root {
+  width: 100%;
+}
+
+.root label {
+  display: none;
+}
+
+.submitButton {
+  composes: root_highPriority from '~@magento/venia-ui/lib/components/Button/button.css';
+  margin-top: 1rem;
+  height: 40px;
+}
+
+.submitButton [class*='indicator-root'] {
+  margin: 0;
+  display: flex;
+  height: inherit;
+  gap: 0;
+}
+
+.submitButton [class*='indicator-root'] svg {
+  width: 22px;
+  height: 22px;
+}
