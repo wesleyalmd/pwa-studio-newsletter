@@ -1,6 +1,6 @@
 {
   "name": "@wesleyalmd/pwa-studio-newsletter",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Newsletter extension for PWA Studio.",
   "main": "./index.js",
   "scripts": {

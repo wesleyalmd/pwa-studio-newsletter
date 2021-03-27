@@ -1,11 +1,5 @@
 # PWA Studio Newsletter extension
 
-[image]
-
-### Requeriments
-
-- Magento 2.4.1
-
 ### Footer component
 
 ![Footer Component](https://github.com/wesleyalmd/pwa-studio-newsletter/raw/master/docs/preview1.png 'Preview Footer Component')
@@ -14,20 +8,26 @@
 
 ![Modal Component](https://github.com/wesleyalmd/pwa-studio-newsletter/raw/master/docs/preview2.png 'Preview Modal Component')
 
+### Requeriments
+
+- Magento 2.4.1
+
 ### Extension options
 
-| props        | type  | default value |
-| ------------ | :---: | ------------: |
-| showOnFooter | bool  |          true |
-| enableModal  | bool  |          true |
+| props        | type | default value |
+| ------------ | :--: | ------------: |
+| showOnFooter | bool |          true |
+| enableModal  | bool |          true |
 
 ### Install
+
+**1. Adding dependency**
 
 ```
 yarn add @wesleyalmd/pwa-studio-newsletter
 ```
 
-Wrap module in your `local-intercept.js`:
+**2. Wrap module in your `local-intercept.js`**
 
 ```
 const { Targetables } = require('@magento/pwa-buildpack');
